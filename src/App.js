@@ -46,6 +46,7 @@ function App() {
 
   useEffect(() => {
     fetchImages();
+    // eslint-disable-next-line
   }, [page]);
 
   useEffect(() => {
